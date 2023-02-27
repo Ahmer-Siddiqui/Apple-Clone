@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+}
+.img{
+    width: 110px;
+    height:90px;
+    margin: 20px;
+    margin-left: 20px;
+   
+}
+.scroll1{
+    padding: 20px;
+}
+ol{
+    display: none;
+}
+.logo{
+    width: 20px;
+    
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+
+}
+.nav-item{
+    padding-left: 30px;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 500px 550px ;
+}
+#card-man{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.btn{
+    border-radius: 30px;
+    background-color: rgb(216, 213, 213);
+}
+li{
+    list-style: none;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
